@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Suite" >
+    <test name="TestSuit3" parallel="tests" >
+        <classes>
+            <class name="roomsHotels" />
+            <class name="fbReg" />
+        </classes>
+    </test>
+
+</suite>
